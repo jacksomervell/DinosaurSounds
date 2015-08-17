@@ -1,0 +1,26 @@
+body {
+  background-image: url(images/Volcano_background.jpg);
+  background-size: 100%;
+}
+
+.trexImage,
+.triceratopsImage,
+.stegImage,
+.apatImage {
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+}
+
+.container {
+  display: block;
+}
+
+.trex,
+.triceratops,
+.stegosaurus,
+.apatosaurus {
+  display: inline-block;
+}
+
